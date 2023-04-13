@@ -1,0 +1,6 @@
+node {
+    stage ('hi'){
+        git url: 'https://github.com/satishkamuju/ClaireUTILS.git',
+        branch: 'main'
+    }
+}
